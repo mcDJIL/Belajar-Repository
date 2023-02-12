@@ -55,8 +55,10 @@ func main() {
 	b := ""
 	c := true
 	d := 2.5
+	e := ".gitignore"
 	fmt.Println(reflect.TypeOf(a))
 	fmt.Println(reflect.TypeOf(b))
 	fmt.Println(reflect.TypeOf(c))
 	fmt.Println(reflect.TypeOf(d))
+	fmt.Println(reflect.TypeOf(e))
 }
